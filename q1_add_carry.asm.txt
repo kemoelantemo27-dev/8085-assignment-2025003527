@@ -1,0 +1,14 @@
+; Name: Kareem mohamed abo el saud
+; Student ID: 2025003527
+; Section: 5
+; Question: Q1 - 8-Bit Addition with Carry
+
+LDA 2500H
+MOV B,A
+LDA 2501H
+ADD B
+STA 2502H
+MVI A,00H
+ACI 00H
+STA 2503H
+HLT
